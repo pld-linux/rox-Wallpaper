@@ -1,11 +1,10 @@
 %include  /usr/lib/rpm/macros.python
-%define _appsdir /usr/X11R6/share/ROX-apps
 %define _name Wallpaper
 Summary:	ROX-Wallpaper can be used to place an image on the background
 Summary(pl):	ROX-Wallpaper mo¿e byæ u¿yty do ustawienia tapety
 Name:		rox-%{_name}
 Version:	0.1.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/rox/%{_name}-%{version}.tgz
@@ -19,6 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 %define		_mandir		%{_prefix}/man
+%define   _appsdir  %{_libdir}/ROX-apps
 
 %description
 This program can be used to place an image on your desktop background.
