@@ -1,4 +1,3 @@
-%include  /usr/lib/rpm/macros.python
 %define _name Wallpaper
 Summary:	ROX-Wallpaper can be used to place an image on the background
 Summary(pl):	ROX-Wallpaper mo¿e byæ u¿yty do ustawienia tapety
