@@ -8,6 +8,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/rox/%{_name}-%{version}.tgz
+# Source0-md5:	30ed0fb5af44170001edebcb2bf3290b
 URL:		http://rox.sourceforge.net/wallpaper.php3
 BuildRequires:	rpm-pythonprov
 Requires:	ImageMagick
