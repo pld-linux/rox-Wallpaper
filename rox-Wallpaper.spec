@@ -13,10 +13,10 @@ BuildRequires:	rpm-pythonprov
 Requires:	ImageMagick
 Requires:	python-pygtk-gtk
 Requires:	rox-Lib
-%pyrequires_eq  python
+%pyrequires_eq	python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define   _appsdir  %{_libdir}/ROX-apps
+%define		_appsdir	%{_libdir}/ROX-apps
 
 %description
 This program can be used to place an image on your desktop background.
