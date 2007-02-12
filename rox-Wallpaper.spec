@@ -2,7 +2,7 @@
 %define _appsdir /usr/X11R6/share/ROX-apps
 %define _name Wallpaper
 Summary:	ROX-Wallpaper can be used to place an image on the background
-Summary(pl):	ROX-Wallpaper moøe byÊ uøyty do ustawienia tapety
+Summary(pl.UTF-8):   ROX-Wallpaper mo≈ºe byƒá u≈ºyty do ustawienia tapety
 Name:		rox-%{_name}
 Version:	0.1.1
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This program can be used to place an image on your desktop background.
 
-%description -l pl
-Ten program moøe byÊ uøyty do ustawienia obrazka jako t≥a.
+%description -l pl.UTF-8
+Ten program mo≈ºe byƒá u≈ºyty do ustawienia obrazka jako t≈Ça.
 
 %prep
 %setup -q -n %{_name}
