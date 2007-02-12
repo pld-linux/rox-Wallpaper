@@ -1,6 +1,6 @@
 %define _name Wallpaper
 Summary:	ROX-Wallpaper can be used to place an image on the background
-Summary(pl.UTF-8):   ROX-Wallpaper może być użyty do ustawienia tapety
+Summary(pl.UTF-8):	ROX-Wallpaper może być użyty do ustawienia tapety
 Name:		rox-%{_name}
 Version:	1.9.2
 Release:	1
